@@ -1,0 +1,513 @@
+/* Judith Ricolfe */
+
+/* General */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin:0;
+    line-height: 1.5;
+}
+
+main{
+    background-color: rgb(244,244,244);
+    padding: 10vw 2vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color:rgb(189, 55, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.link-subratllat{
+    padding-bottom: 4px;
+    border-bottom: dotted 1px rgb(189, 55, 0);
+}
+
+.link-subratllat:hover{
+    border-bottom: dotted 1px black;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+h2{
+    line-height: 1.25;
+    margin: 3vw 0px;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 600;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+h4{
+    color:white;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+p{
+    margin:0;
+    margin-bottom: 4vw;
+}
+
+.camp-formulari input{
+    width: 100%;
+    border: solid 2px black;
+    padding: 5vw;
+    font-size: 1.5rem;
+    margin: 2vw 0vw;
+}
+
+.camp-formulari{
+    display: flex;
+}
+
+.text-petit{
+    font-size: .8rem;
+}
+
+.politica-privacitat{
+    display: inline;
+}
+
+.politica-privacitat button{
+    display: block;
+    margin: 5vw 0vw;
+    padding: 4vw 8vw;
+    background-color: rgb(189, 55, 0);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border: 0px;
+}
+
+.politica-privacitat button:hover{
+    background-color: black;
+}
+
+blockquote{
+    background-color: white;
+    margin: 4vw 0vw;
+    padding: 4vw;
+    border-left: solid 5px rgb(189, 55, 0);
+    font-style: italic;
+}
+
+@media(min-width:500px){
+    h1{
+        font-size: 2.4rem;
+    }
+
+    h2{
+        margin:.3vw 0vw;
+    }
+
+    p{
+        margin-bottom: 1vw;
+    }
+
+    .formulari-index{
+        padding: 0vw 15vw;
+    }
+
+    .formulari-index .text-petit{
+        padding-right: 1vw;
+        text-align: justify;
+    }
+
+    .camp-formulari input{
+        padding: .75vw;
+        font-size: 1rem;
+        margin: .5vw 0vw;
+        border: solid 1px black;
+        
+    }
+    .text-petit{
+        font-size: .6rem;
+        line-height: 1.75;
+    }
+
+    .politica-privacitat button{
+        padding: .75vw 1.5vw;
+        margin: 1vw 0vw;
+    }
+
+    main{
+        padding:2vw 20vw;
+    }
+
+    blockquote{
+        padding: 1vw;
+        margin:1vw 0vw;
+    }
+}
+
+
+
+/* Capçalera */
+
+.bloc-logo-lema{
+    padding: 8vw 1vw;
+}
+
+.lema{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    margin:0;
+    line-height: 1;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 4.2rem;
+    text-align: center;
+    margin: 0;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.header-menu ul {
+    margin:0;
+    padding-left: 0;
+}
+
+.header-menu ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 4px;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-weight: 800;
+    color: black;
+}
+
+.header-menu ul li a:hover{
+    color:rgba(0,0,0,0.5)
+}
+
+.header-menu ul li a.actual{
+    color:rgb(189,55,0)
+}
+
+header{
+    background-color: white;
+}
+
+.header-index{
+    box-shadow: none;
+}
+
+@media(min-width: 500px){
+    header{
+        padding: .5vw 20vw;
+    }
+
+    .bloc-logo-lema{
+        padding: 15px 0px;
+    }
+    
+    .lema{
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .logo{
+        font-weight: 800;
+        font-size: 3.8rem;
+        text-align: left;
+        margin: 0;
+    }
+
+    .header-menu ul li{
+        display: inline;
+        padding-right: 1rem;
+    }
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    padding:10vw 1vw;
+}
+
+.footer-block{
+    padding: 4vw 0vw;
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer-menu ul, .footer-social-menu ul{
+    margin:0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-menu ul li a{
+    color: white;
+}
+
+.footer-menu ul li a:hover{
+    color: rgb(189, 55, 0);
+}
+
+.footer-social-menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-social-menu ul li a:hover{
+    opacity: 0.7;
+}
+
+.footer-autor{
+    margin:0;
+    line-height: 1.5;
+}
+
+.punto{
+    display: none;
+    font-weight: 800;
+}
+
+@media(min-width:500px){
+
+    footer{
+        padding: 3vw 20vw;
+    }
+
+    .footer-block{
+        padding: 1vw 0vw;
+        text-align: left;
+    }
+
+    .footer-menu ul{
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
+    .footer-menu ul li, .punto{
+        display:inline;
+        padding-right: .5vw;
+    }
+
+    main{
+        padding-bottom: 6vw;
+    }
+    
+}
+
+/* Index */
+
+.main-index{
+    background-color: white;
+    padding: 0;
+}
+
+.seccio-descripcio, .seccio-noticies{
+    padding: 5vw 4vw 10vw 4vw;
+}
+
+.hero-imatge{
+    background-image: url(../imgs/bg-hero-home.jpg);
+    background-size: cover;
+    padding:20vw 4vw;
+}
+
+.contenidor-flex-noticies{
+    display: flex;
+    flex-direction: column;
+}
+
+.seccio-descripcio p{
+    font-size: 1.2rem;
+}
+
+.noticia{
+    margin-bottom: 8vw;
+}
+
+
+
+.seccio-subscripcio{
+    background-color: rgb(242, 232, 228);
+    box-sizing: border-box;
+    padding: 5vw 8vw 10vw 8vw;
+}
+
+@media(min-width:500px){
+    .contenidor-flex-noticies{
+        flex-direction: row;
+        column-gap: 2vw;
+    }
+    .noticia{
+        flex:3;
+    }    
+
+    .seccio-descripcio, .seccio-noticies, .seccio-subscripcio{
+        padding: 2vw 20vw;
+    }
+
+    .hero-imatge{
+        padding: 6vw 20vw;
+    }
+
+    h4{
+        font-size: 4.5rem;
+        margin: 0;
+    }
+
+
+}
+
+/* Simptomes */
+
+.conjunt-flex-simptomes, .simptoma{
+    display:flex;
+    flex-direction: column;
+}
+
+.simptoma{
+    background-color: white;
+    padding: 5vw;
+    margin: 2vw;
+    border-radius: 3vw;
+}
+
+.conjunt-flex-simptomes{
+    margin: 5vw 0vw;
+}
+
+.imatge-simptoma img{
+    object-fit: cover;
+    height: 100%;
+}
+
+@media(min-width:500px){
+    .conjunt-flex-simptomes{
+        padding: 0;
+        margin: 0;
+    }
+
+    .simptoma{
+        flex-direction: row;
+        padding: .4vw;
+        border-radius: .5vw;
+        margin: 1vw;
+        align-self: flex-start;
+        width:63%;
+    }
+
+    .imatge-simptoma,.text-simptoma{
+        flex:50%;
+        padding: .5vw;
+        text-align: justify;
+        font-size: .9rem;
+    }
+
+    .simptoma:nth-child(2n){
+        align-self: flex-end;
+    }
+}
+
+/* Videos */
+
+.conjunt-flex-videos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vw;
+}
+
+.caixa-video{
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.caixa-video p{
+    margin: 4vw;
+    text-align: center;
+}
+
+iframe{
+    box-sizing: border-box;
+    max-width:100%;
+    height:50vw;
+}
+
+@media(min-width:500px){
+
+    .conjunt-flex-videos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2%;
+        row-gap: 2vw;
+    }
+
+    .caixa-video{
+        width: 49%;
+    }
+
+    .caixa-video p{
+        margin: .5vw;
+        font-size: .9rem;
+    }
+
+    iframe{
+        height: 16vw;
+    }
+}
+
+/* COP26 */
+
+.conjunt-flex-cop26{
+    margin: 4vw 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-cop26{
+    margin-bottom: 8vw;
+}
+
+@media(min-width: 500px){
+    .conjunt-flex-cop26{
+        flex-direction: row;
+        column-gap: 10%;
+        margin:0vw;
+    }
+
+    .caixa-cop26:nth-child(2){
+        text-align: justify;
+    }
+
+    .caixa-cop26{
+        margin-bottom: 0vw;
+    }
+}
